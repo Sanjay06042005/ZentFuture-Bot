@@ -17,8 +17,8 @@ app.add_middleware(
 # ⚠️ PASTE YOUR REPLACED LINKS INSIDE THE QUOTES BELOW:
 NGROK_URL = "https://xxxx-xxxx.ngrok-free.app" 
 # Fixed connection pooler string structure:
-# Option A: The newer hyphen format for Supavisor routers
-SUPABASE_DB_URL = "postgres://postgres-oidwubtejmgppfbwtjqy:Sanjeyyyy%402005@aws-0-ap-south-1.pooler.supabase.com:6543/postgres"
+# The absolute matching string with the correct aws-1 cluster path!
+SUPABASE_DB_URL = "postgres://postgres.oidwubtejmgppfbwtjqy:Sanjeyyyy%402005@aws-1-ap-south-1.pooler.supabase.com:6543/postgres"
 
 META_ACCESS_TOKEN = "PASTE_YOUR_GENERATED_META_TOKEN_HERE"
 WHATSAPP_PHONE_NUMBER_ID = "1146483951889355"
