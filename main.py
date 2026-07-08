@@ -16,8 +16,8 @@ app.add_middleware(
 
 # ⚠️ PASTE YOUR REPLACED LINKS INSIDE THE QUOTES BELOW:
 NGROK_URL = "https://xxxx-xxxx.ngrok-free.app" 
-# Updated hostname to use the IPv6 compatibility layer required by web hosts like Render:
-SUPABASE_DB_URL = "postgres://postgres.oidwubtejmgppfbwtjqy:Sanjeyyyy%402005@aws-0-ap-south-1.pooler.supabase.com:5432/postgres?sslmode=require"
+# Fixed connection pooler string structure:
+SUPABASE_DB_URL = "postgres://postgres.oidwubtejmgppfbwtjqy:Sanjeyyyy%402005@aws-0-ap-south-1.pooler.supabase.com:6543/postgres?sslmode=require&supavisor_session=true"
 
 META_ACCESS_TOKEN = "PASTE_YOUR_GENERATED_META_TOKEN_HERE"
 WHATSAPP_PHONE_NUMBER_ID = "1146483951889355"
