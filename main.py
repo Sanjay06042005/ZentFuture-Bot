@@ -28,9 +28,6 @@ class ChatRequest(BaseModel):
     channel: str
 
 def get_db_connection():
-    # If it's a connection string URI, this forces psycopg2 to override and use port 6543
-    if SUPABASE_DB_URL.startswith("postgres"):
-        return psycopg2.connect(SUPABASE_DB_URL, port=6543)
     return psycopg2.connect(SUPABASE_DB_URL)
 
 def search_knowledge_base(user_prompt: str) -> str:
