@@ -16,7 +16,7 @@ app.add_middleware(
 
 # ⚠️ PASTE YOUR REPLACED LINKS INSIDE THE QUOTES BELOW:
 NGROK_URL = "https://xxxx-xxxx.ngrok-free.app" 
-SUPABASE_DB_URL = "postgresql://postgres:YOUR_REAL_PASSWORD@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+SUPABASE_DB_URL = "postgres://postgres:Sanjeyyyy%402005@db.oidwubtejmgppfbwtjqy.supabase.co:5432/postgres"
 
 META_ACCESS_TOKEN = "PASTE_YOUR_GENERATED_META_TOKEN_HERE"
 WHATSAPP_PHONE_NUMBER_ID = "1146483951889355"
